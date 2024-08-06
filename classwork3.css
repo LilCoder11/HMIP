@@ -1,0 +1,426 @@
+/* a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+}
+
+
+.signin{
+  margin: 10px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+
+a {
+  color: white;
+}
+
+
+
+
+.FR {
+  align-items: right !important;
+}
+
+
+.monthly {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.pulse {
+  padding: 20px;
+}
+
+
+img{
+  padding: 10px;
+}
+
+
+*/
+body{
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  background-color: rgb(99, 104, 104);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.news {
+  color: white;
+}
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  align-items: center;
+  border: solid black 5px;
+  background-color: black;
+}
+.nmrc {
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(14, 80, 14);
+}
+.realEstate {
+  font-weight: 300;
+  color: #696666;
+}
+.estate {
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+.naija {
+  text-align: center;
+}
+.rates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: 20px auto;
+}
+.pulse{
+  padding-left: 35px;
+}
+.img {
+  object-fit: contain;
+  height: 40px;
+  width: 40px;
+}
+.finances {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(197, 48, 48);
+  padding: 0 20px;
+  margin: 30px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.finances2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(43, 108, 176);
+  padding: 0 20px;
+  margin: 30px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.finances3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(39, 103, 73);
+  padding: 0 20px;
+  margin: 30px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.datasets {
+  background-color: rgb(73, 123, 110);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  align-items: center;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px;
+}
+.view {
+  background-color: rgb(56, 161, 105);
+  border: none;
+  padding: 20px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+}
+.affordability {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #696666;
+}
+.mortgage {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.globe{
+  display: none;
+}
+.inp{
+  width: 100px;
+}
+.monthlyPayment {
+  padding: 10px;
+  font-size: 15px;
+  width: 300px;
+  height: 595px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(39, 103, 73);
+  font-family: "Courier New", Courier, monospace;
+}
+.calc {
+  padding: 50px;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  border: solid 2px gray;
+}
+.calculate {
+  background-color: rgb(39, 103, 73);
+  align-items: center;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+  margin: 10px;
+}
+.Footer {
+  background-color: rgb(80, 138, 115);
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 50px;
+}
+.about {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: top;
+}
+.signup {
+  margin: 50px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-left: 20px;
+  justify-items: center;
+  background-color: #ab9898;
+}
+
+@media screen and (min-width: 328px) {
+  header {
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 104, 104);
+  }
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .news {
+    color: white;
+  }
+  .slide {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    width: auto;
+    margin: 200px;
+    border: solid black 5px;
+    background-color: black;
+  }
+  .nmrc {
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(14, 80, 14);
+  }
+  .realEstate {
+    font-weight: 300;
+    color: #696666;
+  }
+  .estate {
+    border-radius: 10px;
+    width: 600px;
+  }
+  .naija {
+    text-align: center;
+  }
+  .pulse{
+    padding-left: 70px;
+  }
+  .rates {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin: 20px auto;
+  }
+  .img {
+    object-fit: contain;
+    height: 40px;
+    width: 40px;
+  }
+  .finances {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(197, 48, 48);
+    padding: 0 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 25%;
+  }
+  .finances2 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 108, 176);
+    padding: 0 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 25%;
+  }
+  .finances3 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(39, 103, 73);
+    padding: 0 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 25%;
+  }
+  .datasets {
+    background-color: rgb(73, 123, 110);
+    color: white;
+    flex-direction: row;
+    padding-right: 0;
+    padding-left: 70px;
+  }
+  .globe {
+    display: block;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+  }
+  .stats {
+    flex-direction: row;
+  }
+  .inp {
+    width: 400px;
+  } 
+  .stat {
+    flex-direction: row;
+    gap: 10px;
+    margin: 50px;
+  }
+  .view {
+    background-color: rgb(56, 161, 105);
+    border: none;
+    padding: 20px;
+    margin-left: 10px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+  }
+  .affordability {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: #696666;
+  }
+  .mortgage {
+    flex-direction: row;
+    margin: 50px;
+  }
+  .monthlyPayment {
+    font-size: 30px;
+    width: 500px;
+    color: white;
+    background-color: rgb(39, 103, 73);
+    font-family: "Courier New", Courier, monospace;
+  }
+  .calc {
+    text-align: left;
+    padding: 50px;
+    width: 400px;
+    border: solid 2px gray;
+  }
+  .calculate {
+    background-color: rgb(39, 103, 73);
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: none;
+    margin: 10px;
+  }
+  .Footer {
+    background-color: rgb(80, 138, 115);
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 50px;
+  }
+  .about {
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-around;
+    align-items: top;
+  }
+  .signup {
+    margin: 50px;
+    width: auto;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: center;
+    background-color: #ab9898;
+  }
+}
