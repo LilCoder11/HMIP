@@ -55,8 +55,6 @@ body{
 header {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  margin: 10px;
   align-items: center;
   background-color: rgb(99, 104, 104);
 }
@@ -220,6 +218,11 @@ a {
   height: 40px;
   margin: 10px;
 }
+.keysupporters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .Footer {
   background-color: rgb(80, 138, 115);
   align-items: center;
@@ -345,9 +348,15 @@ a {
     padding-right: 0;
     padding-left: 70px;
   }
+  .textss{
+    width: 54%;
+  }
+  .globe img{
+    object-fit: contain;
+  }
   .globe {
     display: block;
-    width: 400px;
+    width: 200px;
     padding: 0;
     margin: 0;
   }
@@ -407,7 +416,7 @@ a {
     background-color: rgb(80, 138, 115);
     color: white;
     font-family: Georgia, "Times New Roman", Times, serif;
-    padding-bottom: 50px;
+    padding-top: 30px;
   }
   .about {
     flex-direction: row;
@@ -422,5 +431,19 @@ a {
     padding-left: 20px;
     justify-content: center;
     background-color: #ab9898;
+  }
+  .keysupporters{
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ta{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
   }
 }
