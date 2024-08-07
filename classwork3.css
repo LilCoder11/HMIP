@@ -53,6 +53,7 @@ body{
   padding: 0;
 }
 header {
+  gap: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,7 +273,7 @@ a {
     gap: 50px;
     color: white;
     width: auto;
-    margin: 200px;
+    margin: 50px;
     border: solid black 5px;
     background-color: black;
   }
@@ -290,6 +291,7 @@ a {
   .estate {
     border-radius: 10px;
     width: 600px;
+    height: 550px;
   }
   .naija {
     text-align: center;
@@ -347,6 +349,7 @@ a {
     flex-direction: row;
     padding-right: 0;
     padding-left: 70px;
+    margin-bottom: 200px;
   }
   .textss{
     width: 54%;
@@ -410,6 +413,7 @@ a {
     text-align: center;
     color: white;
     border: none;
+    width: 300px;
     margin: 10px;
   }
   .Footer {
